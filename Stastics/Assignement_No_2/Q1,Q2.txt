@@ -1,0 +1,32 @@
+1.
+In this we have to use Poisson distribution because in Poisson distribution we search for how many ties no of event take place. As we see in above question that we have to find how many no of times raindrop fall at particular region
+
+so firstly i have to find in t minutes how many rainfall fall.
+
+t*no of drops*inches = t * lambda = t * 20* 5 = 100t
+
+so we find that there are 100 drops for 5 square inches.
+
+20 has been chosen as it is being mentioned the region has no rain drops in a given 3second time interval. 20 in 1 minute or 60 seconds calculation.
+
+P(X=0) = ((100/20)^0/0!)*e^-100/20 = e^-5
+
+
+2.
+X    Y    P(X)     P(Y)
+
+1     2    1/7     1/7
+
+2     3    1/7     1/7 
+
+3    4    1/7      1/7
+
+4    5    1/7      1/7
+
+5    6    1/7     1/7
+
+6   7    1/7      1/7
+
+Follow same distribution as X and Y are having similar data distribution or you can say same probabilities
+
+Here, P(X<Y) = 1/7+1/7+1/7+1/7+1/7+1/7 = 6/7

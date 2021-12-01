@@ -1,0 +1,12 @@
+1.
+The only events that are independent of themselves are those with probability either 0 or 1.
+That follows from the fact that a number is its own square if and only if it's either 0 or 1. 
+The only way a random variable X can be independent of itself is if for every measurable 
+set A, either Pr(X∈A)=1 or Pr(X∈A)=0.
+
+2.
+
+So by definition, A and BC are also independent, which by definition again means that 
+the occurrence of BC doesn't affect the probability of A. ... Therefore, 
+the occurrence of BC also doesn't affect the probability of AC. 
+So by definition, BC and AC are also independent.

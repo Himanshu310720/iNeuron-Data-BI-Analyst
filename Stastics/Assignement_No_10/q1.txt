@@ -1,0 +1,15 @@
+the probability that a egg hatches and chick survives is psps. We can consider each egg as a Bernoulli trial each with a success (hatching and surviving) probability psps. There are nn independent trials, so X∼Bin(n,ps)X∼Bin(n,ps).
+
+But I am trying to prove this more rigorously.
+
+For any 1≤i≤n1≤i≤n we have
+
+P(X=i)=∑j=0nP(X=i|N=j)P(N=j)=∑j=inP(X=i|N=j)P(N=j)=∑j=in(ji)si(1−s)j−i(nj)pj(1−p)n−j
+
+the probability that a egg hatches and chick survives is psps. We can consider each egg as a Bernoulli trial each with a success (hatching and surviving) probability psps. There are nn independent trials, so X∼Bin(n,ps)X∼Bin(n,ps).
+
+But I am trying to prove this more rigorously.
+
+For any 1≤i≤n1≤i≤n we have
+
+P(X=i)=∑j=0nP(X=i|N=j)P(N=j)=∑j=inP(X=i|N=j)P(N=j)=∑j=in(ji)si(1−s)j−i(nj)pj(1−p)n−j

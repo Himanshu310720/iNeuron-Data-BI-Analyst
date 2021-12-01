@@ -1,0 +1,29 @@
+1.
+Given that seasons are equally likely and all 4 seasons (winter, spring, summer, fall) occur at least once each among their birthdays
+
+Total outcomes: Each person is allotted a season out of 4. Hence 48 possibilities
+
+Number of Outcomes that one or more season has no student having their birthday:
+
+Using Inclusion and Exclusion, 4C1*38 - 4C2*28 + 4C3*18  [i.e. Exclude 1 season - Exclude 2 season + exclude 3 season, also note that we can't exclude all the 4 seasons]
+
+Probability that one or more season has no student having their birthday:
+
+(4C1*38 - 4C2*28 + 4C3*18  ) / 48 = 0.377
+
+Required probability that all 4 seasons (winter, spring, summer, fall) occur at least once each among their birthdays:
+
+1-0.377=0.623
+
+= 4P(A1) 6P(A1 \ A2)+4P(A1 \ A2 \ A3). We have P(A1) = (3/4)7
+
+2.
+There are two general ways that Alice can have class every day: either she has 2 days with 2 classes and 3 days with 1 class, or she has 1 day with 3 classes, and has 1 class on each of the other 4 days. The number of possibilities for the former is:
+
+(52)(62)263(52)(62)263 (choose the 2 days when she has 2 classes, and then select 2 classes on those days and 1 class for the other days).
+
+The number of possibilities for the latter is:
+
+(51)(63)64(51)(63)64
+
+So the probability is: (52)(62)263+(51)(63)64(307)(52)(62)263+(51)(63)64(307) which is close to 30.2%.

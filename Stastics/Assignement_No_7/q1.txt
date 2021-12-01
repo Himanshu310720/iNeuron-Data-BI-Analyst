@@ -1,0 +1,34 @@
+1.
+A:The event email is spam
+
+B: The event of email has free memory space
+
+P(A|B) = P(B|A) * P(A)/P(B)
+
+0.1/0.8/(0.1*0.8)+(0.01*0.2)
+
+ = 80/82
+
+2.
+
+Define events
+
+A: {A is guilty}
+
+B: {B is Guilty}
+
+MA = {A's Blood matches the guilty party}
+
+MB = {B's Blood matches the guilty party}
+
+(a) we want to calculate P(A/MA) .Use Byes rule to Calculcate
+
+P(A/MA) =  P(MA|A)P(A)/P(MA|A)P(A)+P(MA|B)P(B) 
+
+(1.1/2)/(1.1/2)+(1/10* 1/2) =  10/11
+
+b  we wan to calculate P(MB/MA). Use Lots to obtain
+
+P(MB|MA) = P(MB|MA.A)P(A|MA)+P(MB/MB.A)P(B|MA)
+
+= 1/10*10/11 + 1.1/11 = 2/11s
